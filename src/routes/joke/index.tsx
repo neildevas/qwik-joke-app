@@ -15,6 +15,7 @@ export const useDadJoke = routeLoader$(async () => {
 
 export const useJokeVoteAction = routeAction$((props) => {
   console.log('VOTE', props);
+  console.log('implement POST action here');
 });
 
 export default component$(() => {
